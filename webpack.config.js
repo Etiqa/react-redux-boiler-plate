@@ -30,7 +30,7 @@
         entry: entry,
         output: {
             path: __dirname + '/build',
-            publicPath: '/test/',
+            publicPath: '/public/',
             filename: 'bundle.js',
             sourceMapFilename: '[file].map'
         },
