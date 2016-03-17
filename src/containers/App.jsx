@@ -8,11 +8,11 @@ import configureStore from '../store/configureStore';
 import { bindActionCreators } from 'redux';
 
 // Import actions
-import * as Actions from '../actions/actions.jsx';
+import {} from '../actions/actions.js';
+import {} from '../actions/async-actions';
 
 // Import JSX modules
 import Title from '../components/Title.jsx';
-
 
 let App = (props) => {
 
